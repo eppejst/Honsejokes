@@ -1,0 +1,81 @@
+<html>
+<head>
+  <title>Hoensejokes</title>
+  <style>
+      body{
+          font-family: monospace;
+      }
+      h1{
+          text-align: center;
+          margin: 5vh;
+          font-size: 40px
+      }
+      ol{
+          margin: 10vw
+      }
+      
+      li{
+          font-size: 20px
+      }
+      .imagecontainer{
+          display: flex;
+          justify-content: center
+      }
+  </style> 
+    
+
+</head>
+<body>
+
+    
+    <div class=imagecontainer>
+    <img src="Hone.jpg" alt="Chicken"
+     style="width: 60%;height: auto; align-self: center">
+    </div>
+    
+<h1>Hønsejokes</h1>
+
+<ol id="menu">
+    <li> Abe</li>
+    </ol>    
+<div style="display: flex; justify-content: center">
+
+    <link href="contact-form.css" rel="stylesheet">
+
+<div class="fcf-body">
+
+    <div id="fcf-form">
+    <h3 class="fcf-h3">Indsend en joke</h3>
+
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+        
+        <div class="fcf-form-group">
+            <label for="Name" class="fcf-label">Dit navn</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Din email</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Din joke</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Indsend joke</button>
+        </div>
+
+    </form>
+    </div>
+
+</div>
+</body>
